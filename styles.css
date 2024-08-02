@@ -48,6 +48,8 @@ button {
 }
 .container img {
   width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 .container button {
   margin-top: 1em;
