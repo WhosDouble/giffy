@@ -3,15 +3,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #dde6ed;
 }
 body {
-  background-color: #151d2f;
+  background-color: #27374d;
 }
 button {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #13fc97;
+  background-color: #9db2bf;
   border-radius: 5px;
   font-weight: 500;
   padding: 1px;
@@ -36,7 +37,8 @@ button {
   grid-template-columns: repeat(3, 1fr);
 }
 .container {
-  background-color: #2b304d;
+  background-color: #526d82;
+  border-radius: 5px;
   display: flex;
   padding: 1em;
   flex-direction: column;
@@ -54,14 +56,23 @@ button {
 .loader {
   height: 15em;
   width: 15em;
-  border: 3em solid #2b304d;
+  border: 3em solid #000000;
   border-radius: 50%;
-  border-top-color: #13fc97;
+  border-top-color: #ff0000;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
   animation: spin 3.5s infinite ease-in-out;
+}
+/*scroll bar*/
+::-webkit-scrollbar {
+  width: 15px;
+  background: #dde6ed;
+}
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: #9db2bf;
 }
 /*spinning animation*/
 @keyframes spin {

@@ -9,7 +9,7 @@ let generateGif = async () => {
   //Get search value (default => batman)
   let q = document.getElementById("search-box").value;
   //display 10 gifs
-  let gifCount = 15;
+  let gifCount = 27;
   //the API URI
   let apiUri = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${q}&limit=${gifCount}&offset=0&rating=g&lang=en`;
   document.querySelector(".wrapper").innerHTML = "";
