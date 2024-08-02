@@ -41,7 +41,7 @@ let generateGif = async () => {
 
       //Copy link
       let copyBtn = document.createElement("button");
-      copyBtn.innerText = "Copy Gif";
+      copyBtn.innerHTML = `<p>Copy Gif <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M14 8H4c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2V10c0-1.103-.897-2-2-2z"></path><path d="M20 2H10a2 2 0 0 0-2 2v2h8a2 2 0 0 1 2 2v8h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path></svg></p> `;
       copyBtn.onclick = () => {
         //Append the optained ID to the Default ID
         let copyLink = `https://media4.giphy.com/media/${gif.id}/giphy.mp4`;
