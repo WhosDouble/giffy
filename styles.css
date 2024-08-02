@@ -30,6 +30,7 @@ button {
 .search-container input {
   padding: 7px;
   border-radius: 5px;
+  color: #000000;
   font-weight: 400;
 }
 .wrapper {
